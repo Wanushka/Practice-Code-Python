@@ -1,17 +1,8 @@
-#Question 04
+#4
 
-a=int(input("Enter first number :"))
-b=int(input("Enter second number :"))
-c=int(input("Enter third number :"))
-def maximum(a,b,c):
-    if(a>=b)and (a>=c):
-        Largest = a
-    elif (b>=a)and (b>=c):
-        Largest = b
-    else:
-        Largest = c
+import random
 
-    return Largest
-print(maximum(a,b,c))
-
+x=input("Enter the word:")
+p=random.randint(0,len(x))
+print(x[p])
 

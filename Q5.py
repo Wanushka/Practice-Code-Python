@@ -1,8 +1,7 @@
-#Question 05
+#5
 
-def sum(numbers):
-    total = 0
-    for x in numbers:
-        total += x
-    return total
-print(sum((8,2,3,0,7)))
+temp = float(input("Enter the centigrade temperature:"))
+print("Fahrenheit temparature is",(9/5)*temp+32)
+
+
+
